@@ -1,4 +1,6 @@
 # DFWCars.com
+## Introduction of the organization 
+DFWCars.com is a leader solution provider that enables customers to buy and sell cars through a digital marketplace. DFWCars.com application was founded in 2019 in Dallas, Texas by a group of SMU students who sense an opportunity to help students get a better online car-shopping experience. The application provides a variety of information about different cars and dealerships for customers to obtain. We believe that this application will  enable students to overcome many challenges such as communication, transportation, and system and process familiarity. In addition, we are confident that our data-driven engine search will smooth the hectic process and enrich it with reliable and accurate information about cars and dealerships
 ## Scope of the Project 
 The website will provide users (students) to buy and sell cars in the DFW area. The users are provided with options to input their personal information, preferences and budget into the application, and the algorithm behind will return recommendations. Students are provided with insights of the nearest dealers and private sellers including their rating, location, and a history of their vehicles sales.  The website provides students with the cars’ information that best fit their needs as below : 
 
@@ -36,3 +38,9 @@ Two search functions: two search functions where we allow our users to do some b
 Insert, Update, and Delete functions: The insert function enables internal users to add a car with detailed information: name of the car, year, price, manufacture, and image URL. Besides, we also created update function, where users can edit the information they entered before. 
 
 Finally, delete function could be used to delete any car by administrator. Once the car is sold, the information related to this car will be automatically deleted from vehicle database and pasted to order database. However, due to security control, external users are not allowed to delete any cars. 
+
+## Analytics 
+● Market share - Users can visualize the different demand for a variety of car models 
+● Car recommendation  - Users can obtain recommendations on car models based on customers inputting features  
+● Inventory management- Users have the opportunity to manage prices and inventory by visualizing customers demand 
+● Sellers map - Users can view dealerships’ locations on a map
