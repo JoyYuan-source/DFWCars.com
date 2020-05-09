@@ -8,9 +8,12 @@ The website will provide users (students) to buy and sell cars in the DFW area. 
 
 ● Location: Longitude, Latitude, zip code, City, School   
 
-● Cars: VIN #, manufacture, model, year, features, Carfax report, mileage, type 
-● Price: fair price, sale price 
-● Recommendation: dealer rating, customer feedback 
+● Cars: VIN #, manufacture, model, year, features, Carfax report, mileage, type   
+
+● Price: fair price, sale price  
+
+● Recommendation: dealer rating, customer feedback  
+
 
 ## Goals of the Project 
 The intended users for this database are students including international students from different universities  and different dealerships in the DFW area. The database will facilitate the process of buying a car for international students attending universities in the US. The application will increase efficiency in the car search by providing a special feature that enables verified students to get special promotions, and offer the eligibility of payment plan without the need of social security number.  This application benefits the dealers as well , since it assists in generating more revenues by increasing their car sales.
@@ -42,7 +45,10 @@ Insert, Update, and Delete functions: The insert function enables internal users
 Finally, delete function could be used to delete any car by administrator. Once the car is sold, the information related to this car will be automatically deleted from vehicle database and pasted to order database. However, due to security control, external users are not allowed to delete any cars. 
 
 ## Analytics 
-● Market share - Users can visualize the different demand for a variety of car models 
+● Market share - Users can visualize the different demand for a variety of car models  
+
 ● Car recommendation  - Users can obtain recommendations on car models based on customers inputting features  
-● Inventory management- Users have the opportunity to manage prices and inventory by visualizing customers demand 
+
+● Inventory management- Users have the opportunity to manage prices and inventory by visualizing customers demand  
+
 ● Sellers map - Users can view dealerships’ locations on a map
