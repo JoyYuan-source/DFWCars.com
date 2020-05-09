@@ -31,6 +31,7 @@ We have three main tables including student, vehicle information and dealer info
 3-The dealer information table: uses Dealer_ID as its primary key and connects with the other two tables as a foreign key. The dealer information tables contain details pertaining to the seller of the car. Besides having personal information from the dealer in order to contact them, the table contains the physical location of the car (latitude and longitude). 
 
 In addition, we included a car check table that allows buyers to make a check of the title status, condition, report and score of the car. This table was created in order to promote the security of the buyer and prevent any potential illegal origin, stolen cars, unauthorized software, etc. 
+![Exibit1](https://user-images.githubusercontent.com/65084653/81484469-42215e00-920b-11ea-89e9-fa5eb29b637c.PNG)
 
 
 ## Shiny/UI 
