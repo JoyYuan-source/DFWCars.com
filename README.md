@@ -4,8 +4,8 @@ DFWCars.com is a leader solution provider that enables customers to buy and sell
 ## Scope of the Project 
 The website will provide users (students) to buy and sell cars in the DFW area. The users are provided with options to input their personal information, preferences and budget into the application, and the algorithm behind will return recommendations. Students are provided with insights of the nearest dealers and private sellers including their rating, location, and a history of their vehicles sales.  The website provides students with the cars’ information that best fit their needs as below : 
 
-● Customer: Student ID, budget, preference (make, model, year...etc.) 
-● Location: Longitude, Latitude, zip code, City, School 
+● Customer: Student ID, budget, preference (make, model, year...etc.) \n
+● Location: Longitude, Latitude, zip code, City, School \n
 ● Cars: VIN #, manufacture, model, year, features, Carfax report, mileage, type 
 ● Price: fair price, sale price 
 ● Recommendation: dealer rating, customer feedback 
