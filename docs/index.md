@@ -18,19 +18,19 @@ The intended users for this database are students including international studen
 
 # Conceptual Design & Logical Design 
 ## Tables Contained in E-R Diagram: 
-● Student – Information from students such as his ID and unique password to make use of the app.  
+● Student: Information from students such as his ID and unique password to make use of the app  
 _Includes: Student_ Id and Student_PW_ 
  
-● Order - Basic information that distinguishes each order.  
+● Order: Basic information that distinguishes each order  
 _Includes:  Order_Id, Year, Month, Day, Vin, Sold_Price, Student_ID_ 
  
-● Vehicle Info - Descriptive information of the cars. 
+● Vehicle Info: Descriptive information of the cars 
 _Includes:  VIN, price, year, manufacturer, make, odometer, paint_color, image_url, Dealer_ID_ 
  
-● Car Check –   Information to check background information from cars.  
+● Car Check:   Information to check background information from cars  
  _Includes: VIN, title_status, condition, report_link, Score_ 
  
-● Dealer -Personal information from dealers including location from nearest dealers.   
+● Dealer: Personal information from dealers including location from nearest dealers   
 _Includes: Dealer_ID, Dealer_Name, Address, Phone, Latitude, Longitude_ 
 
 ## Reasons for E-R Diagram Design: 
@@ -45,13 +45,13 @@ We have three main tables including student, vehicle information and dealer info
 ### Exibit 1
 ![ERD](https://user-images.githubusercontent.com/65084653/81487589-3db56f00-9224-11ea-9222-91329a374e72.PNG)
 
-1-The student table: consists of student id and the student password to log into the application. Student Id is the primary key of the student table and the foreign key for the Order table. When a student signs up for the system, the UI generates a unique password for them. 
+● The student table: consists of student id and the student password to log into the application. Student Id is the primary key of the student table and the foreign key for the Order table. When a student signs up for the system, the UI generates a unique password for them. 
 
-2-The Vehicle Info table:  has the VIN as its primary key. Based on the primary key, we can get the details of the cars. Dealers can list their cars by inputting price, year, manufacturer, make, odometer, paint color and even attach an image of the car. Once the car is listed into the database, it will automatically upload as part of the inventory and then when a customer makes an order it will be removed from the list of cars available and moved to the orders table. 
+● The Vehicle Info table:  has the VIN as its primary key. Based on the primary key, we can get the details of the cars. Dealers can list their cars by inputting price, year, manufacturer, make, odometer, paint color and even attach an image of the car. Once the car is listed into the database, it will automatically upload as part of the inventory and then when a customer makes an order it will be removed from the list of cars available and moved to the orders table. 
 
-3-The dealer information table: uses Dealer_ID as its primary key and connects with the other two tables as a foreign key. The dealer information tables contain details pertaining to the seller of the car. Besides having personal information from the dealer in order to contact them, the table contains the physical location of the car (latitude and longitude). 
+● The dealer information table: uses Dealer_ID as its primary key and connects with the other two tables as a foreign key. The dealer information tables contain details pertaining to the seller of the car. Besides having personal information from the dealer in order to contact them, the table contains the physical location of the car (latitude and longitude). 
 
-In addition, we included a car check table that allows buyers to make a check of the title status, condition, report and score of the car. This table was created in order to promote the security of the buyer and prevent any potential illegal origin, stolen cars, unauthorized software, etc. 
+● Car check table: allows buyers to make a check of the title status, condition, report and score of the car. This table was created in order to promote the security of the buyer and prevent any potential illegal origin, stolen cars, unauthorized software, etc. 
 
 
 
