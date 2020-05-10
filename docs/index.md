@@ -42,7 +42,7 @@ The data used in our project was found on Kaggle – Kaggle Data. Since the data
 ## ER-Diagram 
 We have three main tables including student, vehicle information and dealer information in the ER-Diagram (Exhibit 1).  
 
-### Exibit 1
+### Exhibit 1
 ![ERD](https://user-images.githubusercontent.com/65084653/81487589-3db56f00-9224-11ea-9222-91329a374e72.PNG)
 
 ● The student table: consists of student id and the student password to log into the application. Student Id is the primary key of the student table and the foreign key for the Order table. When a student signs up for the system, the UI generates a unique password for them. 
@@ -58,7 +58,7 @@ We have three main tables including student, vehicle information and dealer info
 ## Relationships / CRUD OPERATIONS 
 Specifically, create, read, update and delete are four basic functions of persistent storage. The following Exibit 2 shows CURD functions in DFWCars.com project. 
 
-### Exibit 2
+### Exhibit 2
 ![Relationships -CRUD OPERATIONS](https://user-images.githubusercontent.com/65084653/81484195-5e240000-9209-11ea-9370-44f1167f3918.PNG)
 
 # Shiny/UI 
@@ -83,61 +83,61 @@ The insert function enables internal users to add a car with detailed informatio
 ● Sellers map - Users can view dealerships’ locations on a map  
 
 # Appendix
-### Exibit 3
+### Exhibit 3
 _**Data Dictionary**_
 
 ![Data Dictionary](https://user-images.githubusercontent.com/65084653/81484187-582e1f00-9209-11ea-9ba9-1cafe8d8f651.PNG)  
 
 
-### Exibit 4
+### Exhibit 4
 _**This exhibit shows that the users need to register in order to use the service provided,  students and dealers need to have users to improve reliability and credibility**_
 
 ![UI1](https://user-images.githubusercontent.com/65084653/81484197-5fedc380-9209-11ea-8aa1-eb53b3a2689e.PNG)  
 
 
-### Exibit 5
+### Exhibit 5
 _**This exhibit shows the buy page for students where they can input features to get filtered car  results**_
 
 ![UI2](https://user-images.githubusercontent.com/65084653/81484199-6419e100-9209-11ea-9a0c-a93a9c28ae00.PNG)  
 
 
-### Exibit 6
+### Exhibit 6
 _**This exhibit shows the page for selling a car ( both users dealers and students), users here need  to input cars information correctly in order to match with customers features**_
 
 ![UI3](https://user-images.githubusercontent.com/65084653/81484202-67ad6800-9209-11ea-9abd-781a63a55551.PNG)  
 
 
-### Exibit 7
+### Exhibit 7
 _**The Exhibit shows the dealers information page which provide users with dealer maps and  information of cars that they have in their wishing list**_
 
 ![UI4](https://user-images.githubusercontent.com/65084653/81484203-6aa85880-9209-11ea-9370-014f648a3e64.PNG)  
 
 
-### Exibit 8
+### Exhibit 8
 _**This Exhibit show a video tab page, those videos will assist customers in buying skills such as  negotiation ,  communication and driving tests**_
 
 ![UI5](https://user-images.githubusercontent.com/65084653/81484207-6ed47600-9209-11ea-876c-c667d6f48448.PNG)  
 
 
-### Exibit 9
+### Exhibit 9
 _**The about page tab will tell a story about the website founders and application goals**_
 
 ![UI6](https://user-images.githubusercontent.com/65084653/81484213-7267fd00-9209-11ea-8f3c-753f0dab0d1e.PNG)  
 
 
-### Exibit 10
+### Exhibit 10
 _**This is a special page will help users to manage their inventory specifically for dealers by searching the different demand for different car models**_
 
 ![UI7](https://user-images.githubusercontent.com/65084653/81484216-74ca5700-9209-11ea-8476-d3b286c14670.PNG)  
 
 
-### Exibit 11
+### Exhibit 11
 _**This Analyze page shows a distribution to inform customers about the overall demand for car models in the market**_
 
 ![UI8](https://user-images.githubusercontent.com/65084653/81484217-772cb100-9209-11ea-937b-df8576c58969.PNG)  
 
 
-### Exibit 12
+### Exhibit 12
 _**The line is a simple linear regression between price and mileage. The black dot above the average line suggests a high price and the dot below the line suggests a good deal for customers**_
 
 ![UI9](https://user-images.githubusercontent.com/65084653/81484221-798f0b00-9209-11ea-9463-32b40a143aa9.PNG)
